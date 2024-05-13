@@ -1,0 +1,28 @@
+.image-button {
+  margin-top: 30px;
+  position: relative;
+  width: 200px; /* Adjust the width as needed */
+  height: 160px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.button-text {
+  color: white; /* Change the color as needed */
+  font-size: 28px; /* Adjust the font size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text for better readability */
+  font-weight: bold; /* Optional */
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction:row;
+}

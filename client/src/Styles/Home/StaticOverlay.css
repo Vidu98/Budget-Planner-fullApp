@@ -1,0 +1,22 @@
+.static-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 10; 
+}
+
+.static-overlay h1, .static-overlay p {
+    margin: 0.5em 0; 
+}
+
+.static-overlay button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}

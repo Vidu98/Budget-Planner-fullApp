@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-logo img {
+    height: 50px; /* Adjust based on your logo */
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .signin-button {
+    background-color: #007bff;  /* Bootstrap primary blue */
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+  
+  .signin-button:hover {
+    background-color: #0056b3;  /* Darken blue on hover */
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links .menu {
+      flex-direction: column;
+      position: absolute;
+      background-color: #333;
+      right: 0;
+      left: 0;
+      align-items: center;
+      padding: 1rem;
+      display: none;
+      top: 65px; /* Adjust based on actual navbar height */
+    }
+  
+    .nav-links #checkbox_toggle {
+      display: block;
+    }
+  
+    .nav-links input[type="checkbox"]:checked + .menu {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+      position: absolute;
+      right: 20px;
+    }
+  }
+  

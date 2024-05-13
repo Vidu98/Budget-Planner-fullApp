@@ -1,0 +1,41 @@
+
+.backgroundImage {
+    width: 100%;
+    height: 720px;
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    position: relative;
+  }
+
+.container{
+    flex:auto;
+    flex-direction: row;
+}
+
+.tab{
+    margin-top: -76px;
+    margin-left: 400px;
+}
+
+.vidu-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin-left: 84px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+
+.nav-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 100px;
+}
+
